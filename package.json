@@ -20,7 +20,9 @@
     "js-beautify": "^1.6.3",
     "tern": "^0.20.0"
   },
-  "scripts": {},
+  "scripts": {
+    "test": "standard"
+  },
   "author": "Kelvin Smith",
   "license": "MIT"
 }
