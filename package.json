@@ -4,7 +4,9 @@
   "description": "React Playground",
   "main": "index.js",
   "dependencies": {
-    "react-redux": "^4.4.5"
+    "react": "^15.3.0",
+    "react-redux": "^4.4.5",
+    "redux": "^3.5.2"
   },
   "devDependencies": {
     "babel-eslint": "^6.1.2",
