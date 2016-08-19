@@ -1,0 +1,13 @@
+{
+  "name": "react_play",
+  "version": "0.1.0",
+  "description": "React Playground",
+  "main": "index.js",
+  "dependencies": {
+    "react-redux": "^4.4.5"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "author": "Kelvin Smith",
+  "license": "MIT"
+}
