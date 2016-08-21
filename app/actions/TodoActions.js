@@ -1,7 +1,5 @@
-let currentId = 0
 export const addTodo = (text) => {
   return {
-    id: ++currentId,
     type: 'ADD_TODO',
     text
   }
