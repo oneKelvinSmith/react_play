@@ -1,3 +1,5 @@
+const webpack = require('webpack')
+
 module.exports = {
   entry: './app/index.js',
   output: {
@@ -10,5 +12,14 @@ module.exports = {
       exclude: /node_modules/,
       loader: 'babel-loader'
     }]
+  },
+  plugins: [
+    new webpack.DefinePlugin({
+      'process.env': {
+        'NODE.ENV': JSON.stringify('production')
+      }
+    })
+  ],
+  devServer: {
   }
 }

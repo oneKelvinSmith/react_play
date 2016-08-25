@@ -3,8 +3,8 @@ import { expect } from 'chai'
 import reducer from '../app/reducers/todos'
 import * as types from '../app/constants/ActionTypes'
 
-describe('todos reducer', () => {
-  it('should return the initial state', () => {
+describe('todos reducer', function () {
+  it('should return the initial state', function () {
     expect(
       reducer(undefined, {})
     ).to.deep.equal([
@@ -16,7 +16,7 @@ describe('todos reducer', () => {
     ])
   })
 
-  it('should handle adding a todo', () => {
+  it('should handle adding a todo', function () {
     expect(
       reducer([], {
         type: types.ADD_TODO,
@@ -30,7 +30,7 @@ describe('todos reducer', () => {
       }
     ])
 
-    it('should handle an additional todo', () => {
+    it('should handle an additional todo', function () {
       const existingTodo = {
         text: 'Use Redux',
         completed: false,
